@@ -66,29 +66,29 @@ No individual coordinate needs to be typed by hand.
 
 ## Why the square root is important
 
-For key \(k\):
+For key $k$:
 
-\[
+$$
 r=\sqrt{k}
-\]
+$$
 
 Circle area is:
 
-\[
+$$
 A=\pi r^2
-\]
+$$
 
-Substitute \(r=\sqrt{k}\):
+Substitute $r=\sqrt{k}$:
 
-\[
+$$
 A=\pi(\sqrt{k})^2
-\]
+$$
 
 so:
 
-\[
+$$
 A=\pi k
-\]
+$$
 
 That is the important result.
 
@@ -98,24 +98,24 @@ As the key count grows, the available area grows linearly with it.
 
 The current Kuiper family uses a 32-bit multiplicative angular mapping:
 
-\[
+$$
 \theta=
 2\pi
 \left(
 \frac{(k\times2654435769)\bmod2^{32}}
 {2^{32}}
 \right)
-\]
+$$
 
 Then:
 
-\[
+$$
 x=r\cos\theta
-\]
+$$
 
-\[
+$$
 y=r\sin\theta
-\]
+$$
 
 The constant 2654435769 is closely related to scaling the 32-bit range by the reciprocal of the golden ratio.
 

@@ -81,17 +81,17 @@ Y = 5
 
 ## Technical maths
 
-Polar coordinates \((r,\theta)\) convert to Cartesian coordinates \((x,y)\) by:
+Polar coordinates $(r,\theta)$ convert to Cartesian coordinates $(x,y)$ by:
 
-\[
+$$
 x=r\cos\theta
-\]
+$$
 
-\[
+$$
 y=r\sin\theta
-\]
+$$
 
-Trigonometric software functions normally expect \(\theta\) in radians.
+Trigonometric software functions normally expect $\theta$ in radians.
 
 ## Sources / further reading
 

@@ -82,21 +82,21 @@ This backwards step is the reason square root becomes useful in Kuiper.
 
 Circle area:
 
-\[
+$$
 A=\pi r^2
-\]
+$$
 
 Solve for radius:
 
-\[
+$$
 \frac{A}{\pi}=r^2
-\]
+$$
 
 then:
 
-\[
+$$
 r=\sqrt{\frac{A}{\pi}}
-\]
+$$
 
 ## Sources / further reading
 

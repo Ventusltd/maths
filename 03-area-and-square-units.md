@@ -56,21 +56,21 @@ It is also why square roots become useful: they can reverse a squared relationsh
 
 For a rectangle:
 
-\[
+$$
 A=L\times W
-\]
+$$
 
 For a square:
 
-\[
+$$
 A=s^2
-\]
+$$
 
 Dimensional units multiply too:
 
-\[
+$$
 m\times m=m^2
-\]
+$$
 
 ## Sources / further reading
 

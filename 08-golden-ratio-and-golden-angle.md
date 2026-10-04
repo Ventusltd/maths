@@ -68,24 +68,24 @@ The production Kuiper law uses a computer-friendly 32-bit multiplicative form of
 
 Golden ratio:
 
-\[
+$$
 \varphi=\frac{1+\sqrt5}{2}\approx1.6180339887
-\]
+$$
 
 Reciprocal:
 
-\[
+$$
 \frac1\varphi=\varphi-1\approx0.6180339887
-\]
+$$
 
 Golden angle:
 
-\[
+$$
 360^\circ\left(1-\frac1\varphi\right)
 \approx137.507764^\circ
-\]
+$$
 
-An equivalent complementary rotation is about \(222.492236^\circ\).
+An equivalent complementary rotation is about $222.492236^\circ$.
 
 ## Sources / further reading
 

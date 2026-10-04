@@ -55,19 +55,19 @@ The side doubled, but the area became four times larger.
 
 ## Technical maths
 
-For any number \(a\):
+For any number $a$:
 
-\[
+$$
 a^2 = a \times a
-\]
+$$
 
-For a square with side length \(s\):
+For a square with side length $s$:
 
-\[
+$$
 A=s^2
-\]
+$$
 
-The unit is also squared. If \(s\) is measured in metres, area is measured in square metres, \(m^2\).
+The unit is also squared. If $s$ is measured in metres, area is measured in square metres, $m^2$.
 
 ## Sources / further reading
 

@@ -70,23 +70,23 @@ At the electrical level, processor circuits built from transistors carry out tho
 
 ## Technical maths
 
-The classical Babylonian / Heron iteration for \(\sqrt{S}\) is:
+The classical Babylonian / Heron iteration for $\sqrt{S}$ is:
 
-\[
+$$
 g_{n+1}=\frac12\left(g_n+\frac{S}{g_n}\right)
-\]
+$$
 
-For positive \(S\) and a suitable positive starting guess, the sequence converges rapidly to:
+For positive $S$ and a suitable positive starting guess, the sequence converges rapidly to:
 
-\[
+$$
 \sqrt{S}
-\]
+$$
 
 This is also a special case of Newton's method applied to:
 
-\[
+$$
 f(g)=g^2-S
-\]
+$$
 
 ## Sources / further reading
 

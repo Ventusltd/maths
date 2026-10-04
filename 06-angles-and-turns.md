@@ -64,15 +64,15 @@ We need both.
 
 Degree-to-radian conversion:
 
-\[
+$$
 \theta_{rad}=\theta_{deg}\frac{\pi}{180}
-\]
+$$
 
 Radian-to-degree conversion:
 
-\[
+$$
 \theta_{deg}=\theta_{rad}\frac{180}{\pi}
-\]
+$$
 
 ## Sources / further reading
 

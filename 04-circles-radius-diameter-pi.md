@@ -55,21 +55,21 @@ Pi is not an arbitrary decoration. It appears because circles have the same circ
 
 Diameter:
 
-\[
+$$
 d=2r
-\]
+$$
 
 Circumference:
 
-\[
+$$
 C=\pi d=2\pi r
-\]
+$$
 
 Definition of pi:
 
-\[
+$$
 \pi=\frac{C}{d}
-\]
+$$
 
 Pi is irrational, so its decimal expansion does not terminate or repeat.
 

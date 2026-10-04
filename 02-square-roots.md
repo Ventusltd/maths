@@ -62,25 +62,25 @@ That becomes important later in circles and in Kuiper.
 
 If:
 
-\[
+$$
 b^2=a
-\]
+$$
 
 then:
 
-\[
+$$
 \sqrt{a}=b
-\]
+$$
 
-For positive real numbers, \(\sqrt{a}\) means the non-negative square root.
+For positive real numbers, $\sqrt{a}$ means the non-negative square root.
 
 For example:
 
-\[
+$$
 (\sqrt{10})^2=10
-\]
+$$
 
-The number \(\sqrt{10}\) is irrational, meaning it cannot be written exactly as a ratio of two integers.
+The number $\sqrt{10}$ is irrational, meaning it cannot be written exactly as a ratio of two integers.
 
 ## Sources / further reading
 

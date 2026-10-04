@@ -63,23 +63,23 @@ The same idea is common in clocks, repeating schedules, circular buffers, comput
 
 For integers, writing:
 
-\[
+$$
 a \bmod n
-\]
+$$
 
-means the remainder associated with division by \(n\), under the chosen modulo convention.
+means the remainder associated with division by $n$, under the chosen modulo convention.
 
 For the simple positive examples used here:
 
-\[
+$$
 400\bmod360=40
-\]
+$$
 
 and:
 
-\[
+$$
 25\bmod12=1
-\]
+$$
 
 Programming languages can differ in how they treat negative values, so implementation details matter.
 
