@@ -62,7 +62,19 @@ A simple teaching version can use:
 angle = (key × 137.507764°) mod 360°
 ```
 
-The production Kuiper law uses a computer-friendly 32-bit multiplicative form of the same spreading idea.
+The deployed Kuiper wafer does **not** turn 137.5° per key.
+
+It turns 0.6180339887 of a turn per key, which is **222.492236°**.
+
+```
+222.492236° + 137.507764° = 360°
+```
+
+So the wafer is the golden spiral seen in a mirror: the same packing, wound the other way.
+
+The teaching version (and the Kuiper belt in `tools/estate.py`) turns 137.5° one way; the wafer turns 137.5° the other way. Both are good. They are not the same picture.
+
+See [Which way the golden turn goes](08a-which-way-the-golden-turn-goes.md).
 
 ## Technical maths
 
@@ -85,7 +97,7 @@ $$
 \approx137.507764^\circ
 $$
 
-An equivalent complementary rotation is about $222.492236^\circ$.
+The complementary rotation $360^\circ/\varphi \approx 222.492236^\circ$ lands on the same set of directions but winds the opposite way. This is the one the Kuiper wafer uses.
 
 ## Sources / further reading
 

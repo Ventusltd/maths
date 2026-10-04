@@ -28,6 +28,10 @@ Common directions:
 
 So an angle is simply a way of describing direction around a centre.
 
+Angles count **anticlockwise**: 90° is a quarter turn to the left.
+
+Careful: on many computer screens Y counts **downwards**, which flips the picture and makes the same angles look clockwise. Always check which way Y goes.
+
 ## Why 360?
 
 The choice of 360 is ancient and convenient because 360 can be divided evenly by many useful numbers: 2, 3, 4, 5, 6, 8, 9, 10, 12 and more.
