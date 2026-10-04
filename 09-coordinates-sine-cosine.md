@@ -93,6 +93,23 @@ $$
 
 Trigonometric software functions normally expect $\theta$ in radians.
 
+## Try it in Excel
+
+| cell | type | expect |
+|---|---|---|
+| A2 | `5` (radius) | 5 |
+| B2 | `90` (degrees) | 90 |
+| C2 | `=A2*COS(RADIANS(B2))` (X) | 0 (Excel may show 3.06E-16) |
+| D2 | `=A2*SIN(RADIANS(B2))` (Y) | 5 |
+
+The 3.06E-16 is rounding dust: a computer cannot store π exactly. Treat it as 0.
+
+## Check it yourself
+
+1. Radius 5 at 180°: X and Y? (-5, 0)
+2. Radius 2 at 60°: X? (1, because cos 60° = 0.5)
+3. Check: X² + Y² should equal radius². Try it on your C2 and D2.
+
 ## Sources / further reading
 
 - OpenStax, *Precalculus 2e*: https://openstax.org/details/books/precalculus-2e

@@ -73,6 +73,23 @@ $$
 
 Pi is irrational, so its decimal expansion does not terminate or repeat.
 
+## Try it in Excel
+
+| cell | type | expect |
+|---|---|---|
+| A2 | `3` (radius) | 3 |
+| B2 | `=2*A2` (diameter) | 6 |
+| C2 | `=PI()*B2` (circumference) | 18.849556 |
+| D2 | `=C2/B2` | 3.141593 |
+
+Change A2 to anything. D2 never changes: that is pi.
+
+## Check it yourself
+
+1. Diameter 10 m: circumference? (31.415927 m)
+2. Radius 1: how far round? (2π = 6.283185)
+3. Wrap a string round a tin, then measure across. Divide. Close to 3.14?
+
 ## Sources / further reading
 
 - NIST Digital Library of Mathematical Functions: https://dlmf.nist.gov/

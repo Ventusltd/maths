@@ -78,6 +78,23 @@ $$
 \theta_{deg}=\theta_{rad}\frac{180}{\pi}
 $$
 
+## Try it in Excel
+
+Excel's COS and SIN want radians.
+
+| cell | type | expect |
+|---|---|---|
+| A2 | `180` (degrees) | 180 |
+| B2 | `=RADIANS(A2)` | 3.141593 |
+| C2 | `=DEGREES(B2)` | 180 |
+| D2 | `=A2/360` (fraction of a turn) | 0.5 |
+
+## Check it yourself
+
+1. A quarter turn in degrees and in radians? (90°, π/2 = 1.570796)
+2. 0.25 of a turn is how many degrees? (90)
+3. 0.618034 of a turn is how many degrees? (222.49, the Kuiper wafer's step)
+
 ## Sources / further reading
 
 - OpenStax, *Precalculus 2e*: https://openstax.org/details/books/precalculus-2e

@@ -98,6 +98,20 @@ $$
 r=\sqrt{\frac{A}{\pi}}
 $$
 
+## Try it in Excel
+
+| cell | type | expect |
+|---|---|---|
+| A2 | `3` (radius) | 3 |
+| B2 | `=PI()*A2^2` (area) | 28.274334 |
+| C2 | `=SQRT(B2/PI())` (back to radius) | 3 |
+
+## Check it yourself
+
+1. Radius 10: area? (314.159265)
+2. Area 100π: radius? (10)
+3. Radius 1 to radius 3: how many times more area? (9)
+
 ## Sources / further reading
 
 - OpenStax, *Precalculus 2e*: https://openstax.org/details/books/precalculus-2e

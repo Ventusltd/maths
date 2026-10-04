@@ -69,6 +69,22 @@ $$
 
 The unit is also squared. If $s$ is measured in metres, area is measured in square metres, $m^2$.
 
+## Try it in Excel
+
+| cell | type | expect |
+|---|---|---|
+| A2 | `3` | 3 |
+| B2 | `=A2*A2` | 9 |
+| C2 | `=A2^2` | 9 |
+
+Put 4 in A2: B2 shows 16. Put 10: 100.
+
+## Check it yourself
+
+1. What is 7²? (49)
+2. A 2 m square and a 6 m square. How many times bigger is the area? (36 ÷ 4 = 9 times)
+3. Is 3² the same as 3 × 2? (No: 9, not 6)
+
 ## Sources / further reading
 
 - OpenStax, *Prealgebra 2e*: https://openstax.org/details/books/prealgebra-2e

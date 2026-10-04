@@ -88,6 +88,24 @@ $$
 f(g)=g^2-S
 $$
 
+## Try it in Excel
+
+| cell | type | expect |
+|---|---|---|
+| A2 | `3` (first guess) | 3 |
+| A3 | `=(A2+10/A2)/2` | 3.166666667 |
+| A4 | fill down | 3.162280702 |
+| A5 | fill down | 3.162277660 |
+| A6 | fill down | 3.162277660 |
+
+Four steps and it has stopped changing. Compare with `=SQRT(10)`.
+
+## Check it yourself
+
+1. Start at 3 for √9. What happens? (It stays at 3: already right)
+2. Start at 1 for √10. How many steps to settle? (About 6)
+3. Run it for √2 starting at 1. (1.5, 1.416667, 1.414216, 1.414214)
+
 ## Sources / further reading
 
 - Encyclopaedia Britannica, Newton's method: https://www.britannica.com/science/Newtons-method

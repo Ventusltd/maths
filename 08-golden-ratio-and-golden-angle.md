@@ -97,7 +97,22 @@ $$
 \approx137.507764^\circ
 $$
 
-The complementary rotation $360^\circ/\varphi \approx 222.492236^\circ$ lands on the same set of directions but winds the opposite way. This is the one the Kuiper wafer uses.
+The complementary rotation $360^\circ/\varphi \approx 222.492236^\circ$ gives the mirror image: the same spacing, wound the opposite way. This is the one the Kuiper wafer uses.
+
+## Try it in Excel
+
+| cell | type | expect |
+|---|---|---|
+| A2 | `=(1+SQRT(5))/2` | 1.618034 |
+| B2 | `=1/A2` | 0.618034 |
+| C2 | `=360*B2` | 222.492236 |
+| D2 | `=360-C2` | 137.507764 |
+
+## Check it yourself
+
+1. Is B2 the same as A2 - 1? (Yes: 0.618034)
+2. Does C2 + D2 make 360? (Yes)
+3. Key 1 on the wafer: 222.49° or 137.51°? (222.49°)
 
 ## Sources / further reading
 
