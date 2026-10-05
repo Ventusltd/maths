@@ -49,3 +49,8 @@ area inside key k = pi x k, exactly
 If a symbol looks meaningless, stop and go back to the physical problem it is describing.
 
 The formal maths is deliberately placed near the bottom of each file rather than at the beginning.
+
+## Public diary
+
+- [5 October 2026: Learn the Kuiper and connected projects](diary/2026-10-05-learn-the-kuiper.md)
+- [Public project links and source revisions](https://github.com/Ventusltd/kuiper-belt/blob/main/diary/2026-10-05-public-links.json)
