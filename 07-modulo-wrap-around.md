@@ -63,25 +63,42 @@ The same idea is common in clocks, repeating schedules, circular buffers, comput
 
 For integers, writing:
 
-\[
+$$
 a \bmod n
-\]
+$$
 
-means the remainder associated with division by \(n\), under the chosen modulo convention.
+means the remainder associated with division by $n$, under the chosen modulo convention.
 
 For the simple positive examples used here:
 
-\[
+$$
 400\bmod360=40
-\]
+$$
 
 and:
 
-\[
+$$
 25\bmod12=1
-\]
+$$
 
 Programming languages can differ in how they treat negative values, so implementation details matter.
+
+## Try it in Excel
+
+| cell | type | expect |
+|---|---|---|
+| A2 | `400` | 400 |
+| B2 | `=MOD(A2,360)` | 40 |
+| C2 | `=MOD(25,12)` | 1 |
+| D2 | `=MOD(-30,360)` | 330 |
+
+Excel's MOD gives an answer with the same sign as the divisor, so -30 wraps to 330. JavaScript's `%` gives -30. That is the "implementation details matter" warning in action.
+
+## Check it yourself
+
+1. 1000 mod 360? (280)
+2. 2 × 222.492236 = 444.984472. Mod 360? (84.984472, Kuiper key 2's angle)
+3. What is 360 mod 360? (0: a full turn lands where it began)
 
 ## Sources / further reading
 

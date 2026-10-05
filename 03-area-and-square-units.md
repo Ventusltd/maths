@@ -56,21 +56,35 @@ It is also why square roots become useful: they can reverse a squared relationsh
 
 For a rectangle:
 
-\[
+$$
 A=L\times W
-\]
+$$
 
 For a square:
 
-\[
+$$
 A=s^2
-\]
+$$
 
 Dimensional units multiply too:
 
-\[
+$$
 m\times m=m^2
-\]
+$$
+
+## Try it in Excel
+
+| cell | type | expect |
+|---|---|---|
+| A2 | `5` (length, m) | 5 |
+| B2 | `2` (width, m) | 2 |
+| C2 | `=A2*B2` (area, m²) | 10 |
+
+## Check it yourself
+
+1. A 4 m by 3 m room: how many 1 m tiles? (12)
+2. Which is bigger: 10 m or 10 m²? (Trick question: they measure different things)
+3. A square of area 36 m²: how long is a side? (6 m, using a square root)
 
 ## Sources / further reading
 

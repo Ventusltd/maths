@@ -62,25 +62,41 @@ That becomes important later in circles and in Kuiper.
 
 If:
 
-\[
+$$
 b^2=a
-\]
+$$
 
 then:
 
-\[
+$$
 \sqrt{a}=b
-\]
+$$
 
-For positive real numbers, \(\sqrt{a}\) means the non-negative square root.
+For positive real numbers, $\sqrt{a}$ means the non-negative square root.
 
 For example:
 
-\[
+$$
 (\sqrt{10})^2=10
-\]
+$$
 
-The number \(\sqrt{10}\) is irrational, meaning it cannot be written exactly as a ratio of two integers.
+The number $\sqrt{10}$ is irrational, meaning it cannot be written exactly as a ratio of two integers.
+
+## Try it in Excel
+
+| cell | type | expect |
+|---|---|---|
+| A2 | `10` | 10 |
+| B2 | `=SQRT(A2)` | 3.16227766 |
+| C2 | `=B2*B2` | 10 |
+
+C2 squares the answer back. That is how to check any square root.
+
+## Check it yourself
+
+1. √49? (7)
+2. √50 lies between which two whole numbers? (7 and 8)
+3. Square 3.162 by hand or calculator. Is it just under 10? (9.998244)
 
 ## Sources / further reading
 

@@ -28,6 +28,10 @@ Common directions:
 
 So an angle is simply a way of describing direction around a centre.
 
+Angles count **anticlockwise**: 90° is a quarter turn to the left.
+
+Careful: on many computer screens Y counts **downwards**, which flips the picture and makes the same angles look clockwise. Always check which way Y goes.
+
 ## Why 360?
 
 The choice of 360 is ancient and convenient because 360 can be divided evenly by many useful numbers: 2, 3, 4, 5, 6, 8, 9, 10, 12 and more.
@@ -64,15 +68,32 @@ We need both.
 
 Degree-to-radian conversion:
 
-\[
+$$
 \theta_{rad}=\theta_{deg}\frac{\pi}{180}
-\]
+$$
 
 Radian-to-degree conversion:
 
-\[
+$$
 \theta_{deg}=\theta_{rad}\frac{180}{\pi}
-\]
+$$
+
+## Try it in Excel
+
+Excel's COS and SIN want radians.
+
+| cell | type | expect |
+|---|---|---|
+| A2 | `180` (degrees) | 180 |
+| B2 | `=RADIANS(A2)` | 3.141593 |
+| C2 | `=DEGREES(B2)` | 180 |
+| D2 | `=A2/360` (fraction of a turn) | 0.5 |
+
+## Check it yourself
+
+1. A quarter turn in degrees and in radians? (90°, π/2 = 1.570796)
+2. 0.25 of a turn is how many degrees? (90)
+3. 0.618034 of a turn is how many degrees? (222.49, the Kuiper wafer's step)
 
 ## Sources / further reading
 
